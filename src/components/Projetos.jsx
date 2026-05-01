@@ -11,6 +11,15 @@ const projetos = [
     demo: "https://cine-app-navy.vercel.app"
 
     },
+    
+    {
+    id: 2,
+    nome: "DevQuiz",
+    descricao: "Quiz interativo de desenvolvimento web com 10 perguntas, feedback visual de acerto/erro, perguntas e alternativas embaralhadas a cada jogo.",
+    tecnologias: ["React", "CSS Modules", "JavaScript"],
+    github: "https://github.com/guilhermealmeidareact/devquiz",
+    demo: "https://devquiz-nu.vercel.app"
+    },
 ]
 
 function Projetos() {
