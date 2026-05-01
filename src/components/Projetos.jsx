@@ -8,7 +8,7 @@ const projetos = [
     descricao: "App de filmes completo com filmes populares, busca e página de detalhes com sinopse, avaliação e duração. Desenvolvido com React, React Router e CSS Modules.",
     tecnologias: ["React", "React Router", "CSS Modules", "API REST"],
     github: "https://github.com/guilhermealmeidareact/cine-app",
-    demo: "cine-app-navy.vercel.app"
+    demo: "https://cine-app-navy.vercel.app"
 
     },
 ]
