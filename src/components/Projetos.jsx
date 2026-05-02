@@ -20,6 +20,15 @@ const projetos = [
     github: "https://github.com/guilhermealmeidareact/devquiz",
     demo: "https://devquiz-nu.vercel.app"
     },
+
+    {
+    id: 3,
+    nome: "Dashboard Financeiro",
+    descricao: "Dashboard de finanças pessoais com cards de resumo, gráfico de barras, gráfico de pizza por categoria e lista de transações recentes.",
+    tecnologias: ["React", "Recharts", "CSS Modules"],
+    github: "https://github.com/guilhermealmeidareact/dashboard",
+    demo: "https://dashboard-seven-flax-46.vercel.app"
+},
 ]
 
 function Projetos() {
