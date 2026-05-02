@@ -42,7 +42,16 @@
         padding: 16px 24px;
     }
 
+    .logo {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+
     .nav {
-        gap: 16px;
+        gap: 12px;
+    }
+
+    .nav a {
+        font-size: 0.85rem;
     }
 }
