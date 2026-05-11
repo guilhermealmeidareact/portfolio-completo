@@ -1,89 +1,66 @@
-.hero {
-    min-height: 100vh;
+.sobre {
+    padding: 120px 80px;
+    background-color: #111;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 24px;
+    color: #ffffff;
+}
+
+.texto {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 0 80px;
-    max-width: 800px;
-}
-
-.saudacao {
-    font-size: 1.1rem;
-    color: #3b82f6;
-    font-weight: 500;
-    margin-bottom: 8px;
-}
-
-.nome {
-    font-size: 4rem;
-    font-weight: 900;
-    color: #ffffff;
-    line-height: 1.1;
-    margin-bottom: 8px;
-}
-
-.cargo {
-    font-size: 2rem;
-    font-weight: 300;
-    color: #888;
-    margin-bottom: 24px;
-}
-
-.descricao {
-    font-size: 1.1rem;
-    color: #666;
-    line-height: 1.7;
-    max-width: 500px;
-    margin-bottom: 40px;
-}
-
-.botoes {
-    display: flex;
     gap: 16px;
 }
 
-.btnPrimario {
-    padding: 14px 32px;
+.texto p {
+    color: #888;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.imageBox {
+    flex-shrink: 0;
+}
+
+.placeholder {
+    width: 280px;
+    height: 280px;
     background-color: #3b82f6;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 900;
     color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: 600;
-    font-size: 0.95rem;
-    transition: background 0.2s;
-}
-
-.btnPrimario:hover {
-    background-color: #2563eb;
-}
-
-.btnSecundario {
-    padding: 14px 32px;
-    background-color: transparent;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: 600;
-    font-size: 0.95rem;
-    border: 2px solid #333;
-    transition: all 0.2s;
-}
-
-.btnSecundario:hover {
-    border-color: #3b82f6;
-    color: #3b82f6;
+    letter-spacing: 4px;
 }
 
 @media (max-width: 768px) {
-    .hero {
-        padding: 120px 24px 60px;
+    .sobre {
+        padding: 80px 24px;
     }
 
-    .nome {
-        font-size: 2.5rem;
+    .conteudo {
+        flex-direction: column-reverse;
+        gap: 40px;
     }
 
-    .cargo {
-        font-size: 1.4rem;
+    .placeholder {
+        width: 100%;
+        height: 200px;
     }
 }
