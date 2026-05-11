@@ -29,6 +29,15 @@ const projetos = [
     github: "https://github.com/guilhermealmeidareact/dashboard",
     demo: "https://dashboard-seven-flax-46.vercel.app"
 },
+
+{
+    id: 4,
+    nome: "WeatherApp",
+    descricao: "App de previsão do tempo que busca clima em tempo real por cidade. Exibe temperatura, sensação térmica, umidade e velocidade do vento.",
+    tecnologias: ["React", "CSS Modules", "API REST"],
+    github: "https://github.com/guilhermealmeidareact/weather-app",
+    demo: "https://weather-app-sandy-seven-64.vercel.app"
+},
 ]
 
 function Projetos() {
