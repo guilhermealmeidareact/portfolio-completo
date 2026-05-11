@@ -1,5 +1,6 @@
 .habilidades {
     padding: 120px 80px;
+    background-color: #0f0f0f;
 }
 
 .container {
@@ -11,7 +12,7 @@
     font-size: 2.5rem;
     font-weight: 900;
     margin-bottom: 48px;
-    color: #111;
+    color: #ffffff;
 }
 
 .grid {
@@ -34,7 +35,7 @@
 
 .nome {
     font-weight: 600;
-    color: #111;
+    color: #ffffff;
     font-size: 0.95rem;
 }
 
@@ -45,14 +46,14 @@
 
 .barra {
     height: 6px;
-    background-color: #eee;
+    background-color: #222;
     border-radius: 3px;
     overflow: hidden;
 }
 
 .progresso {
     height: 100%;
-    background-color: #111;
+    background-color: #3b82f6;
     border-radius: 3px;
     transition: width 1s ease;
 }
