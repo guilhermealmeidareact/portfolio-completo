@@ -9,6 +9,8 @@ const habilidades = [
     { nome: "Flexbox & Grid", nivel: 85 },
     { nome: "API REST", nivel: 70 },
     { nome: "Responsividade", nivel: 80 },
+    {nome: "PHP", nivel: 65 },
+    {nome: "MySQL", nivel: 60 }
 ]
 
 function Habilidades() {
