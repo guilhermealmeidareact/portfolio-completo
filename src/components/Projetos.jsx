@@ -38,6 +38,15 @@ const projetos = [
     github: "https://github.com/guilhermealmeidareact/weather-app",
     demo: "https://weather-app-sandy-seven-64.vercel.app"
 },
+
+{
+    id: 5,
+    nome: "CRUD em PHP",
+    descricao: "Sistema web de gerenciamento de usuários desenvolvido com PHP e MySQL. Permite cadastrar, visualizar, editar e deletar registros com interface simples e intuitiva.",
+    github: "https://github.com/guilhermealmeidareact/crud-php",
+    demo: "http://guilhermealmeida-react.infinityfreeapp.com/crud_usuarios/index.php?i=1"
+}
+
 ]
 
 function Projetos() {
