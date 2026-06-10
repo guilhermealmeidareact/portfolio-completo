@@ -43,7 +43,7 @@ const projetos = [
     id: 5,
     nome: "CRUD em PHP",
     descricao: "Sistema web de gerenciamento de usuários desenvolvido com PHP e MySQL. Permite cadastrar, visualizar, editar e deletar registros com interface simples e intuitiva.",
-    tecnologias: ["PHP", "MySQL", "HTML", "CSS"],
+    tecnologias: ["PHP", "MySQL", "React"],
     github: "https://github.com/guilhermealmeidareact/crud-php",
     demo: "https://guilhermealmeida-react.freedev.app/"
 }
